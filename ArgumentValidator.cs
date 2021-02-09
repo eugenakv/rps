@@ -36,7 +36,7 @@ namespace RockPaperScissors
 
             if (dublicates.Count() != 0)
             {
-                claims.Add("All the name must be unique:\n" + string.Join(",\n", dublicates) + ".");
+                claims.Add("All the names must be unique:\n" + string.Join(",\n", dublicates) + ".");
             }
 
             return claims.Count == 0;
